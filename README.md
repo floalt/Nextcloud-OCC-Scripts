@@ -10,9 +10,6 @@ Thanks to Troublicious
 ### usage
 `./groupallusers.sh <add|remove> <groupname>`
 
-### feature Request
-- script uses temporary file: usertemp. would be better to use a variable
-
 ----
 
 ## importusers.sh
@@ -21,11 +18,8 @@ Thanks to Troublicious
 Import users from a csv-file. Passwords are generated automatically and stored in a output txt-file.
 
 ### usage
+Formatting for csv-file (no first line): `displayname;username;group1;group2;group3;group4;email;quota;`
 `./importusers.sh` (interactive)
-
-### feature request
-- 
-
 
 ----
 
@@ -38,9 +32,6 @@ Would be better to do this in the script => feature request.
 ### usage
 `./newuser.sh` (interactive)
 
-### feature request
-- get the groups into the script
-
 ----
 
 ## setallusers.sh
@@ -50,6 +41,3 @@ Do settings for all users with one hit.
 
 ### usage
 `./setallusers.sh` (interactive)
-
-### feature Request
-- script uses temporary file: usertemp. would be better to use a variable
