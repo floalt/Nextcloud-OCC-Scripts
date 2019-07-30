@@ -4,6 +4,8 @@
 
 ### description
 Add all users to a group or remove them out of a group.
+Took a lot of code from https://help.nextcloud.com/t/importing-users-from-csv-file-and-adding-users-to-different-groups/30881/4
+Thanks to Troublicious
 
 ### usage
 `./groupallusers.sh <add|remove> <groupname>`
@@ -15,6 +17,14 @@ Add all users to a group or remove them out of a group.
 
 ## importusers.sh
 
+### description
+Import users from a csv-file. Passwords are generated automatically and stored in a output txt-file.
+
+### usage
+`./importusers.sh` (interactive)
+
+### feature request
+- 
 
 
 ----
