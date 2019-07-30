@@ -1,39 +1,38 @@
-# occ-scripts
-Nextcloud OCC Scripts
+# occ-scripts: Nextcloud OCC Scripts
 
-### newuser.sh
+## newuser.sh
 
-# description
+### description
 Script zur Neuanlage eines Nextcloud-Benutzers. Hinterher muss man noch manuell die Gruppen für den User konfigurieren.
 
-# usage
-./newuser.sh (interactive)
+### usage
+`./newuser.sh` (interactive)
 
-# Feature request
+### Feature request
 - Gruppen noch mit einbauen
 
 --------------------------------------
 
-### groupallusers.sh
+## groupallusers.sh
 
-# description
+### description
 Mit diesem Script kann man alle Benutzer auf einmal zu einer Gruppe hinzufügen oder daraus entfernen.
 
-# usage
-./groupallusers.sh <add|remove> <groupname>
+### usage
+`./groupallusers.sh <add|remove> <groupname>`
 
-# Feature Request
+### Feature Request
 - Statt usertemp direkt in eine Variable schreiben
 
 -------------------------------------
 
-### setallusers.sh
+## setallusers.sh
 
-# description
+### description
 Mit diesem Script kann man Einstellungen für alle Benutzer auf einmal setzen.
 
-# usage
-./setallusers.sh (interactive)
+### usage
+`./setallusers.sh` (interactive)
 
-# Feature Request
+### Feature Request
 - Statt usertemp direkt in eine Variable schreiben
