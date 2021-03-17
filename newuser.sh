@@ -1,6 +1,6 @@
 # Nextcloud: neuen Benutzer anlegen
 # author: flo.alt@fa-netz.de
-# ver: 0.8
+# ver: 0.81
  
 #!/bin/bash
 
@@ -9,8 +9,8 @@ var_path_nextcloud=/var/www/nextcloud
 
 
 askbasicinfos() {
+  read -p "Vollständiger Name (Vor- und Zuname): " ncfullname
   read -p "Benutzername: " ncuser
-  read -p "Anzeige Name: " ncfullname
   read -p "Mailadresse: " ncmail
   if [ -z "$ncuser" ] || [ -z "$ncfullname" ] || [ -z "$ncmail" ]; then
     echo "Bitte alle Werte angeben"
